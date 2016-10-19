@@ -1,0 +1,8 @@
+USE [Chapter5]
+GO
+
+DBCC SHRINKFILE (N'Chapter5_log' , 0, TRUNCATEONLY);
+GO
+
+ALTER DATABASE [Chapter5] MODIFY FILE ( NAME = N'Chapter5_log', SIZE = 512000KB );
+GO

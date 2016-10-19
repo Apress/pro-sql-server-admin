@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED COLUMNSTORE INDEX NCCI_FirstName_LastName_Balance_CustomerID ON CustomersDisc(FirstName,LastName,Balance,CustomerID)

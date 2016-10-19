@@ -1,0 +1,1 @@
+Install-WindowsFeature Net-Framework-Core -source \\192.168.183.1\netsp35sp1\

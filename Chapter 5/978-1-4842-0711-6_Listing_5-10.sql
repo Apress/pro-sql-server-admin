@@ -1,0 +1,1 @@
+ALTER DATABASE [Chapter5] MODIFY FILE ( NAME = N'Chapter5_File4', SIZE = 20480KB ) ; 

@@ -1,0 +1,1 @@
+Move-ClusterGroup -Name "SQL Server (PROSQLADMINCLUST)" -Node ClusterNode1

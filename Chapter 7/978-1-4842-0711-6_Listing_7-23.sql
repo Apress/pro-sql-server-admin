@@ -1,0 +1,1 @@
+ALTER INDEX NCI_CustomerID_NetAmount ON OrdersDisc REORGANIZE

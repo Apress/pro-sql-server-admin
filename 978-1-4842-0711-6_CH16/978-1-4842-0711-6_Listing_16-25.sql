@@ -1,0 +1,1 @@
+-Publisher [WIN-KIAGK4GN1MJ\PROSQLADMIN] -PublisherDB [Chapter16] -Distributor [WIN-KIAGK4GN1MJ\PROSQLADMIN] -DistributorSecurityMode 1  -Continuous -ReadBatchSize 1000

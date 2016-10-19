@@ -1,0 +1,1 @@
+Set-ClusterQuorum -Cluster PROSQLADMIN-C -NodeAndDiskMajority "Cluster Disk 5"

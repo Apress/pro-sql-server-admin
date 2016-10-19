@@ -1,0 +1,8 @@
+USE Chapter24
+GO
+
+CREATE PROCEDURE TestTrigger
+AS
+BEGIN
+	SELECT 1 ;
+END

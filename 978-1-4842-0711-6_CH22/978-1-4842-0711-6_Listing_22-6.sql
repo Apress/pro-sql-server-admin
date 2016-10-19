@@ -1,0 +1,5 @@
+AS
+BEGIN
+	SELECT *
+	FROM sys.tables WITH (NOLOCK)
+END

@@ -1,0 +1,1 @@
+sqlcmd.exe -S ".\PROSQLADMINCORE" -Q "SELECT @@SERVERNAME" 

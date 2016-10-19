@@ -1,0 +1,1 @@
+-Subscriber [WIN-KIAGK4GN1MJ\PROSQLADMIN2] -SubscriberDB [Chapter16_Sub] -Publisher [WIN-KIAGK4GN1MJ\PROSQLADMIN] -Distributor [WIN-KIAGK4GN1MJ\PROSQLADMIN] -DistributorSecurityMode 1 -Publication [Chapter16_Customers_Filtered] -PublisherDB [Chapter16]    -Continuous -CommitBatchSize 250

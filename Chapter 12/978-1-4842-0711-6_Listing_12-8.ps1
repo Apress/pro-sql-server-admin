@@ -1,0 +1,1 @@
+Get-ClusterResource "SQL Network Name (PROSQLSRV-C)" | Set-ClusterOwnerNode -Owners clusternode1 

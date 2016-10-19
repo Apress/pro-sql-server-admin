@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX NCI_Balance ON CustomersDisc(Balance) INCLUDE(LastName, FirstName) WITH(DROP_EXISTING = ON)

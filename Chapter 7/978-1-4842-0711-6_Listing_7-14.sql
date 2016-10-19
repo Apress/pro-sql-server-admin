@@ -1,0 +1,15 @@
+CREATE INDEX NCI_CustomerID_NetAmount ON OrdersDisc(CustomerID, NetAmount)
+
+DBCC FREEPROCCACHE
+DBCC DROPCLEANBUFFERS
+
+SET STATISTICS TIME ON
+SET STATISTICS IO ON
+
+SELECT SUM(netamount), CustomerID
+FROM OrdersDisc
+GROUP BY CustomerID
+
+SELECT SUM(netamount), CustomerID
+FROM OrdersColumnstore
+GROUP BY CustomerID

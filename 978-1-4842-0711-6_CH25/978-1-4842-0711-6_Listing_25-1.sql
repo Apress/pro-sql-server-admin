@@ -1,0 +1,21 @@
+USE Master
+GO
+
+CREATE DATABASE Chapter25 ;
+GO
+
+CREATE LOGIN URLBackupOperator 
+	WITH PASSWORD=N'Pa$$w0rd', DEFAULT_DATABASE=[master], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF ;
+GO
+
+GRANT ALTER ANY CREDENTIAL TO URLBackupOperator ;
+GO
+
+USE Chapter25
+GO
+
+CREATE USER URLBackupOperator FOR LOGIN URLBackupOperator ;
+GO
+
+ALTER ROLE db_backupoperator ADD MEMBER URLBackupOperator ;
+GO

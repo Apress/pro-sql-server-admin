@@ -1,0 +1,5 @@
+USE Chapter9
+GO
+
+CREATE USER [PROSQLADMIN\Chapter9Uusers] WITH DEFAULT_SCHEMA=dbo ;
+GO

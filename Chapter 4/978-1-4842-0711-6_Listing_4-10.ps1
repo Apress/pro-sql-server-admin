@@ -1,0 +1,1 @@
+New-NetFirewallRule -DisplayName "SQL_Server_TCP_IN " -Direction Inbound -Profile Domain -Action Allow -Protocol TCP -RemotePort 1433,5022,49152-65535
